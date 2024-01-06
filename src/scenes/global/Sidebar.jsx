@@ -162,7 +162,7 @@ const Sidebar = () => {
             />
             <Item
               title="Tasks Operation"
-              to="/team"
+              to="/pie"
               icon={<DvrIcon />}
               selected={selected}
               setSelected={setSelected}
