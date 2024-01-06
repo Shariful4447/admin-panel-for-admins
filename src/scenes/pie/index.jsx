@@ -38,18 +38,10 @@ const Pie = () => {
           alignItems="center"
         >
           <StatBox
-            title="12,361"
-            subtitle="Start The Process"
+            title="Start The Process"
             progress="0.75"
-            increase="+14%"
-            icon={
-              <EmailIcon
-                sx={{
-                  color: colors.greenAccent[600],
-                  fontSize: "26px",
-                }}
-              />
-            }
+            
+            
           />
         </Box>
         <Box
@@ -60,18 +52,10 @@ const Pie = () => {
           alignItems="center"
         >
           <StatBox
-            title="431,225"
-            subtitle="Get The Result"
+            title="Get The Result"
             progress="0.5"
-            increase="+21%"
-            icon={
-              <RotateLeftIcon
-                sx={{
-                  color: colors.greenAccent[600],
-                  fontSize: "26px",
-                }}
-              />
-            }
+            
+            
           />
         </Box>
         <Box
@@ -80,22 +64,19 @@ const Pie = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
+          
         >
+          
           <StatBox
-            title="32,441"
-            subtitle="Send The Result To Experts for verification"
+            title="Experts Verification"
             progress="0.30 "
-            increase="+5%"
-            icon={
-              <AccessTimeIcon
-                sx={{
-                  color: colors.greenAccent[600],
-                  fontSize: "26px",
-                }}
-              />
-            }
+            
+            
+            
           />
+          
         </Box>
+        
         <Box
           gridColumn={isNonMobile ? "span 3" : "span 12"}
           backgroundColor={colors.primary[400]}
@@ -104,18 +85,10 @@ const Pie = () => {
           alignItems="center"
         >
           <StatBox
-            title="32,441"
-            subtitle="Generate Certificate"
+            title="Generate Certificate"
             progress="0.30 "
-            increase="+5%"
-            icon={
-              <AccessTimeIcon
-                sx={{
-                  color: colors.greenAccent[600],
-                  fontSize: "26px",
-                }}
-              />
-            }
+            
+            
           />
         </Box>
       </Box>
