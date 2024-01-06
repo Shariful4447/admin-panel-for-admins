@@ -31,7 +31,7 @@ const Pie = () => {
       >
 {/* ROW 1 box-key section */}
         <Box
-          gridColumn={isNonMobile ? "span 4" : "span 12"}
+          gridColumn={isNonMobile ? "span 3" : "span 12"}
           backgroundColor={colors.primary[400]}
           display="flex"
           justifyContent="center"
@@ -39,7 +39,7 @@ const Pie = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Requested Site"
+            subtitle="Start The Process"
             progress="0.75"
             increase="+14%"
             icon={
@@ -53,7 +53,7 @@ const Pie = () => {
           />
         </Box>
         <Box
-          gridColumn={isNonMobile ? "span 4" : "span 12"}
+          gridColumn={isNonMobile ? "span 3" : "span 12"}
           backgroundColor={colors.primary[400]}
           display="flex"
           justifyContent="center"
@@ -61,7 +61,7 @@ const Pie = () => {
         >
           <StatBox
             title="431,225"
-            subtitle="Status of the current request"
+            subtitle="Get The Result"
             progress="0.5"
             increase="+21%"
             icon={
@@ -75,7 +75,7 @@ const Pie = () => {
           />
         </Box>
         <Box
-          gridColumn={isNonMobile ? "span 4" : "span 12"}
+          gridColumn={isNonMobile ? "span 3" : "span 12"}
           backgroundColor={colors.primary[400]}
           display="flex"
           justifyContent="center"
@@ -83,7 +83,29 @@ const Pie = () => {
         >
           <StatBox
             title="32,441"
-            subtitle="Estimated time to Complete"
+            subtitle="Send The Result To Experts for verification"
+            progress="0.30 "
+            increase="+5%"
+            icon={
+              <AccessTimeIcon
+                sx={{
+                  color: colors.greenAccent[600],
+                  fontSize: "26px",
+                }}
+              />
+            }
+          />
+        </Box>
+        <Box
+          gridColumn={isNonMobile ? "span 3" : "span 12"}
+          backgroundColor={colors.primary[400]}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <StatBox
+            title="32,441"
+            subtitle="Generate Certificate"
             progress="0.30 "
             increase="+5%"
             icon={
