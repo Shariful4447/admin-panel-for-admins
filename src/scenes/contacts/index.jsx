@@ -38,8 +38,8 @@ const Contacts = () => {
   return (
     <Box m="20px">
       <Header
-        title="CONTACTS"
-        subtitle="List of contacts for future Reference"
+        title="Request List"
+        subtitle="List of All request for Pattern check"
       />
       <Box
         height="80vh"
