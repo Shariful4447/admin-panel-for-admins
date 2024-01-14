@@ -246,7 +246,7 @@ const Dashboard = () => {
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            View certificate
+            View Expert Findings
           </Typography>
           <Box
             display="flex"
