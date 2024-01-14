@@ -177,7 +177,7 @@ const Sidebar = () => {
 
             <Item
               title="Settings"
-              to="/invoices"
+              to="/form"
               icon={<SettingsIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -190,13 +190,7 @@ const Sidebar = () => {
             >
               Support
             </Typography>
-            <Item
-              title="FeedBack Form"
-              to="/form"
-              icon={<PersonOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+
             <Item
               title="Calendar"
               to="/calendar"
