@@ -38,7 +38,7 @@ const Dashboard = () => {
       >
 
         {/* ROW 1- main transition box */}
-                <Box
+        <Box
           gridColumn={isNonMobile ? "span 8" : "span 12"}
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
@@ -218,7 +218,7 @@ const Dashboard = () => {
             </Typography>
             <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
-        </Box>
+      </Box>
 
 {/*         
         <Box

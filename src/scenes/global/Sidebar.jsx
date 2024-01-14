@@ -147,7 +147,7 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Received Request"
-              to="/contacts"
+              to="/request"
               icon={<ArrowUpwardIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -191,7 +191,7 @@ const Sidebar = () => {
               Support
             </Typography>
             <Item
-              title="Profile Form"
+              title="FeedBack Form"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
