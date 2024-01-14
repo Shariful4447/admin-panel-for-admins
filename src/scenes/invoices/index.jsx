@@ -39,6 +39,16 @@ const Invoices = () => {
       ),
     },
     {
+      field: 'subscription_type',
+      headerName: 'Subscription',
+      flex: 1,
+      renderCell: (params) => (
+        <Typography color={colors.greenAccent[500]}>
+          {params.row.subscription_type}
+        </Typography>
+      ),
+    },
+    {
       field: 'date',
       headerName: 'Date',
       flex: 1,
