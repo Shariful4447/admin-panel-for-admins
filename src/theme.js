@@ -208,7 +208,7 @@ export const ColorModeContext = createContext();
 
 export const useMode = () => {
   //state to save current mode
-  const [mode, setMode] = useState('dark');
+  const [mode, setMode] = useState('light');
 
   //create a function to hold a method to change state trigger re-render
   const colorMode = useMemo(

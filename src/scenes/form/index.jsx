@@ -40,7 +40,7 @@ const Form = () => {
   };
   return (
     <Box m="20px">
-      <Header title="FORM" subtitle="Create a New User Profile" />
+      <Header title="PROFILE UPDATE FORM" subtitle="Update your Profile" />
       <Formik
         onSubmit={handleFormSubmit}
         //initialValues is a obj offer values, consist with empty string
@@ -146,7 +146,7 @@ const Form = () => {
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
               <Button type="submit" color="secondary" variant="contained">
-                Create New User
+                Upadte
               </Button>
             </Box>
           </form>
